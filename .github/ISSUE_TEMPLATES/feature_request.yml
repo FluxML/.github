@@ -18,7 +18,8 @@ body:
     id: motivation
     attributes:
       label: Motivation
-      description: |
+      description: Why is this feature needed? How will it help the users of this package?
+      placeholder: |
         X would help users to perform Y with a better accuracy / speed.
         X is a novel feature required to perform W.
         ...
@@ -26,7 +27,8 @@ body:
     id: implementation
     attributes:
       label: Possible Implementation
-      description: |
+      description: If possible, add a possible implementation for the suggested feature.
+      placeholder: |
         X can be implemented by referring to the Y paper or the Z blog post.
         I have implemented X locally using the following code -
         ...

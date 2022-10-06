@@ -2,11 +2,27 @@
     <img width="400px" src="https://raw.githubusercontent.com/FluxML/Flux.jl/master/docs/src/assets/logo.png"/>
 </p>
 
-Flux is a library for machine learning geared towards high-performance production pipelines. It comes "batteries-included" with many useful tools built in, but also lets you use the full power of the Julia language where you need it. We follow a few key principles:
+# The Elegant Machine Learning Stack
 
-* **Doing the obvious thing**. Flux has relatively few explicit APIs for features like regularisation or embeddings. Instead, writing down the mathematical form will work – and be fast.
-* **Extensible by default**. Flux is written to be highly extensible and flexible while being performant. Extending Flux is as simple as using your own code as part of the model you want - it is all [high-level Julia code](https://github.com/FluxML/Flux.jl/blob/ec16a2c77dbf6ab8b92b0eecd11661be7a62feef/src/layers/recurrent.jl#L131). When in doubt, it’s well worth looking at [the source](https://github.com/FluxML/Flux.jl/). If you need something different, you can easily roll your own.
-* **Performance is key**. Flux integrates with high-performance AD tools such as [Zygote.jl](https://github.com/FluxML/Zygote.jl) for generating fast code. Flux optimizes both CPU and GPU performance. Scaling workloads easily to multiple GPUs can be done with the help of Julia's [GPU tooling](https://github.com/JuliaGPU/CUDA.jl) and projects like [DaggerFlux.jl](https://github.com/DhairyaLGandhi/DaggerFlux.jl).
-* **Play nicely with others**. Flux works well with Julia libraries from [data frames](https://github.com/JuliaComputing/JuliaDB.jl) and [images](https://github.com/JuliaImages/Images.jl) to [differential equation solvers](https://github.com/JuliaDiffEq/DifferentialEquations.jl), so you can easily build complex data processing pipelines that integrate Flux models. Have a look at [Flux' ecosystem](https://fluxml.ai/Flux.jl/dev/ecosystem/) to learn more about how Flux integrates with other Julia packages.
+Flux is a 100% pure-Julia stack and provides lightweight abstractions on top of Julia's native GPU and AD support. It makes the easy things easy while remaining fully hackable.
+
+## Features
+
+Flux has features that sets it apart among ML systems
+
+### Compiled Eager Code
+Flux provides a single, intuitive way to define models, just like mathematical notation. Julia transparently [compiles your code](https://julialang.org/blog/2018/12/ml-language-compiler), optimising and fusing kernels for the GPU, for the best performance.
+
+### Differentiable Programming
+Existing Julia libraries are differentiable and can be incorporated directly into Flux models. Cutting edge models such as [Neural ODEs](https://julialang.org/blog/2019/01/fluxdiffeq) are first class, and [Zygote](https://github.com/FluxML/Zygote.jl) enables overhead-free gradients.
+
+### First-class GPU support
+GPU kernels can be written directly in Julia via [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl). Flux is uniquely hackable and any part can be tweaked, from GPU code to custom gradients and layers.
+
+### The Model Zoo
+A [rich collection](https://github.com/FluxML/model-zoo) of Flux scripts to learn from, or tweak to your own data. Trained Flux models can be used from [TextAnalysis](https://github.com/JuliaText/TextAnalysis.jl) or [Metalhead](https://github.com/FluxML/Metalhead.jl).
+
+### TPUs & Colab
+Flux models can be [compiled to TPUs](https://github.com/JuliaTPU/XLA.jl) for cloud supercomputing, and run from Google Colab notebooks.
 
 Check out [Flux's website](https://fluxml.ai) for more information on the FluxML stack!

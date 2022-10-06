@@ -25,4 +25,6 @@ A [rich collection](https://github.com/FluxML/model-zoo) of Flux scripts to lear
 ### TPUs & Colab
 Flux models can be [compiled to TPUs](https://github.com/JuliaTPU/XLA.jl) for cloud supercomputing, and run from Google Colab notebooks.
 
+---
+
 Check out [Flux's website](https://fluxml.ai) for more information on the FluxML stack!

@@ -11,7 +11,7 @@ Flux is a 100% pure-Julia stack and provides lightweight abstractions on top of 
 Flux has features that sets it apart among ML systems
 
 ### Compiled Eager Code
-Flux provides a single, intuitive way to define models, just like mathematical notation. Julia transparently [compiles your code](https://julialang.org/blog/2018/12/ml-language-compiler), optimising and fusing kernels for the GPU, for the best performance.
+Flux provides a single, intuitive way to define models, just like mathematical notation. Julia transparently [compiles your code](https://julialang.org/blog/2018/12/ml-language-compiler), optimizing kernels for the GPU, for the best performance.
 
 ### Differentiable Programming
 Existing Julia libraries are differentiable and can be incorporated directly into Flux models. Cutting edge models such as [Neural ODEs](https://julialang.org/blog/2019/01/fluxdiffeq) are first class, and [Zygote](https://github.com/FluxML/Zygote.jl) enables overhead-free gradients.

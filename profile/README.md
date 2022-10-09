@@ -22,9 +22,6 @@ GPU kernels can be written directly in Julia via [CUDA.jl](https://github.com/Ju
 ### The Model Zoo
 A [rich collection](https://github.com/FluxML/model-zoo) of Flux scripts to learn from, or tweak to your own data. Trained Flux models can be used from [TextAnalysis](https://github.com/JuliaText/TextAnalysis.jl) or [Metalhead](https://github.com/FluxML/Metalhead.jl).
 
-### TPUs & Colab
-Flux models can be [compiled to TPUs](https://github.com/JuliaTPU/XLA.jl) for cloud supercomputing, and run from Google Colab notebooks.
-
 ---
 
 Check out [Flux's website](https://fluxml.ai) for more information on the FluxML stack!

@@ -19,8 +19,8 @@ Existing Julia libraries are differentiable and can be incorporated directly int
 ### First-class GPU support
 GPU kernels can be written directly in Julia via [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl). Flux is uniquely hackable and any part can be tweaked, from GPU code to custom gradients and layers.
 
-### The Model Zoo
-A [rich collection](https://github.com/FluxML/model-zoo) of Flux scripts to learn from, or tweak to your own data. Trained Flux models can be used from [TextAnalysis](https://github.com/JuliaText/TextAnalysis.jl) or [Metalhead](https://github.com/FluxML/Metalhead.jl).
+### Model Ecosystem
+[Model-zoo](https://github.com/FluxML/model-zoo) is a collection of demonstrations of the Flux machine learning library. Any of these may freely be used as a starting point for your own models. [Metalhead](https://github.com/FluxML/Metalhead.jl) and [Flux3D](https://github.com/FluxML/Flux3D.jl) provide trained vision-based and 3D vision-based Flux models, respectively. Furthermore, [Transformers](https://github.com/chengchingwen/Transformers.jl) provides transformer-based Flux models written in 100% Julia!
 
 ---
 

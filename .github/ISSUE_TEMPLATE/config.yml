@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+contact_links:
+- name: Julia's discourse forum
+  url: https://discourse.julialang.org/
+  about: |
+    How do I do 'X' with FluxML and Julia?
+- name: Julia's slack (channel '#machine-learning')
+  url: https://discourse.julialang.org/t/announcing-a-julia-slack/4866
+  about: |
+    How do I do 'X' with FluxML and Julia?

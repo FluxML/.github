@@ -8,7 +8,7 @@ Flux is a 100% pure-Julia stack and provides lightweight abstractions on top of 
 
 ## Features
 
-Flux has features that sets it apart among ML systems
+Flux has features that sets it apart among ML systems.
 
 ### Compiled Eager Code
 Flux provides a single, intuitive way to define models, just like mathematical notation. Julia transparently [compiles your code](https://julialang.org/blog/2018/12/ml-language-compiler), optimizing kernels for the GPU, for the best performance.

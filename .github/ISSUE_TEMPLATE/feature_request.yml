@@ -10,19 +10,10 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the potential feature
-      description: A detailed description of the suggested feature.
+      label: Motivation and description
+      description: Explain why the suggested feature is needed and give a detailed description.
     validations:
       required: true
-  - type: textarea
-    id: motivation
-    attributes:
-      label: Motivation
-      description: Why is this feature needed? How will it help the users of this package?
-      placeholder: |
-        X would help users to perform Y with a better accuracy / speed.
-        X is a novel feature required to perform W.
-        ...
   - type: textarea
     id: implementation
     attributes:
